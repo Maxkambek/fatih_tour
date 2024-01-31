@@ -50,7 +50,7 @@ class TourDropAdmin(TranslationStackedInline):
 
 @admin.register(Tour)
 class TourAdmin(TranslationAdmin):
-    inlines = [TourDateAdmin, TourDetailAdmin, TourDropAdmin]
+    inlines = [TourDetailAdmin]
 
     class Media:
         js = (

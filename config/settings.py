@@ -24,7 +24,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'main',
-    'accounts'
 ]
 
 MIDDLEWARE = [
@@ -56,8 +55,6 @@ TEMPLATES = [
         },
     },
 ]
-
-AUTH_USER_MODEL = 'accounts.Account'
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
